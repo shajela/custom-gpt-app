@@ -1,3 +1,5 @@
 streamlit
 openai
 llama_index
+os-sys
+dotenv
