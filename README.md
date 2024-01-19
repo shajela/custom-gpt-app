@@ -5,5 +5,5 @@ This app leverages the OpenAI API and Llama Index framework to deliver a custom 
 This app was built using
 - [Streamlit](https://streamlit.io/)
 - [Llama Index](https://gpt-index.readthedocs.io/)
- - [OpenAI](https://platform.openai.com/docs/overview)
+- [OpenAI](https://platform.openai.com/docs/overview)
 
