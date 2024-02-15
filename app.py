@@ -31,7 +31,7 @@ service_context = ServiceContext.from_defaults(llm=OpenAI(
 ))
 index = VectorStoreIndex.from_documents(docs, service_context=service_context)
 
-query = st.text_input("Ask anything...")
+query = st.text_input("Ask about Python, C++, SQL, etc...")
 if query:
     chat_engine = index.as_chat_engine(chat_mode="condense_question")
     response = chat_engine.chat(query)
